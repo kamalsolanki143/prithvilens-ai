@@ -216,3 +216,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PrithviLens AI
+
+backend/.venv/
+
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+*.tif
+*.tiff
+*.img
+
+data/raw/*
+data/processed/*
+data/interim/*
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+
+reports/generated/*
+reports/exports/*
+
+!reports/generated/.gitkeep
+!reports/exports/.gitkeep
